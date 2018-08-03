@@ -5,5 +5,6 @@ su $_USER <<'EOF'
 if [ ! -d "/home/${_USER}/app/node_modules" ]; then
     (cd /home/$_USER/app; npm install; )
 fi
-/home/$_USER/app/node_modules/electron/dist/electron  /home/$_USER/app;
+#/home/$_USER/app/node_modules/electron/dist/electron  /home/$_USER/app;
+cd /home/$_USER/app;  npm run dev;
 EOF

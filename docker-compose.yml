@@ -7,4 +7,4 @@ electron:
     volumes:
         - /tmp/.X11-unix:/tmp/.X11-unix
         - /home/it
-        - ./electron-quick-start:/home/it/app
+        - ./electron-react-boilerplate:/home/it/app
