@@ -2,9 +2,9 @@ electron:
     build: .
     environment:
         - DISPLAY=$DISPLAY
-        - _USER=fer
+        - _USER=it
         - _UID=1000
     volumes:
         - /tmp/.X11-unix:/tmp/.X11-unix
-        - /home/fer
-        - ./electron-quick-start:/home/fer/app
+        - /home/it
+        - ./electron-quick-start:/home/it/app
